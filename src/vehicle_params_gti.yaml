@@ -1,0 +1,51 @@
+single_track_params:
+  name: "Niki"
+  model_type: "single_track"
+
+  m_Mg: 1.868
+  Izz_Mgm2: 3.049
+
+  a_m: 1.19
+  b_m: 1.44
+
+  track_front_m: 1.50
+  track_rear_m: 1.50
+
+  h_cm_m: 0.55
+  h_rc_f_m: 0.07
+  h_rc_r_m: 0.11
+
+  max_delta_deg: 27.0
+  max_delta_dot_degps: 20.0
+  max_fx_dot_nps: 10000.0
+
+  cd0_n: 218.0
+  cd1_nspm: 0.0
+  cd2_ns2pm2: 0.4243
+
+  ca_0_f_knprad: 0.0
+  ca_0_r_knprad: 0.0
+  
+  ca_1_f_knpradpkn: 8.0
+  ca_1_r_knpradpkn: 13.0
+
+  mu_f_ub: 0.35 # Upper bound
+  mu_r_ub: 0.35 # Upper bound
+
+  mu_f_lb: 0.10 # Lower bound
+  mu_r_lb: 0.10 # Lower bound
+
+  p_eng_max_kw: 172.0
+  K_phi_f_knmprad: 81.0 
+  K_phi_r_knmprad: 38.0
+  gamma: 0.64
+
+  tau_long_weight_transfer_s: 0.10
+
+  drive_front_frac: 1.00
+  drive_rear_frac: 0.00
+  brake_front_frac: 0.60
+  brake_rear_frac: 0.40
+
+  eps_f: 0.0025
+  eps_r: 0.00208
